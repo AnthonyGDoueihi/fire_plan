@@ -1,6 +1,16 @@
 # Fire Plan Alexa Lambda
 
-This is a part of the Fire Action Plan Alexa Skill. The main Lambda function called by the skill.
+The is the entry poing for the Fire Action Plan Alexa Skill. The repository contains the main AWS Lambda function.
+Improtant: this is a backend function only, the actual Alexa skill has to be built manually through Developer portal: [https://https://developer.amazon.com]
+
+In short, the process looks like this:
+1. Login and press "Create Skill" -> select from scratch option
+2. For the Skill Invocation Name type "fire action plan"
+3. For the Intents section create the following structure:
+  - SetupIntent
+  - WantPlanIntent
+
+
 
 * [Fire Plan Api Parser Lambda](https://github.com/AnthonyGDoueihi/fire_plan_api_parser)
 
