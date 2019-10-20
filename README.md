@@ -145,7 +145,7 @@ export AWS_REGION=us-west-2
 export aws_access_key_id=......
 aws_secret_access_key=...
 ~~~
-1. Login to your AWS account and create a Lambda function with Python runtime, leave the code empty.
+1. Login to your AWS account and create a Lambda function with NodeJS runtime, leave the code empty.
 2. Go to the location of the project and type: 
 ~~~bash
 zip -r lambda.zip ./*
