@@ -1,7 +1,7 @@
 # Fire Plan Alexa Lambda
 
 The is the entry poing for the Fire Action Plan Alexa Skill. The repository contains the main AWS Lambda function.
-Improtant: this is a backend function only, the actual Alexa skill has to be built manually through Developer portal: [https://https://developer.amazon.com]
+Improtant: this is a backend function only, the actual Alexa skill has to be built manually through Developer portal: [https://developer.amazon.com]
 
 In short, the process looks like this:
 1. Login and press "Create Skill" -> select from scratch option
